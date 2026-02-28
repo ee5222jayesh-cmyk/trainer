@@ -1,11 +1,10 @@
 {
-<<<<<<< HEAD
   "name": "fitness-guide",
   "version": "1.0.0",
   "description": "A comprehensive fitness website for beginners",
   "main": "index.js",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite",  
     "build": "vite build",
     "preview": "vite preview"
   },
@@ -18,16 +17,14 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.8.1",
     "@remix-run/dev": "^1.15.0",
-    "@remix-run/react": "^1.15.0"
+    "@remix-run/react": "^1.15.0",
+    "jwt-decode": "^4.0.0"
   },
-  "devDependencies": {
+  "devDependencies": {  
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
     "@vitejs/plugin-react": "^4.0.3",
     "vite": "^4.4.5"
-=======
-  "dependencies": {
-    "jwt-decode": "^4.0.0"
->>>>>>> 8da0b69dcee89c110ff52cd71ac6e83a1b16ba97
   }
 }
+
