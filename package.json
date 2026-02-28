@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "fitness-guide",
   "version": "1.0.0",
   "description": "A comprehensive fitness website for beginners",
@@ -24,5 +25,9 @@
     "@types/react-dom": "^18.2.7",
     "@vitejs/plugin-react": "^4.0.3",
     "vite": "^4.4.5"
+=======
+  "dependencies": {
+    "jwt-decode": "^4.0.0"
+>>>>>>> 8da0b69dcee89c110ff52cd71ac6e83a1b16ba97
   }
 }
