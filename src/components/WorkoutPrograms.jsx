@@ -69,6 +69,17 @@ const WorkoutPrograms = () => {
       icon: <Zap className="workout-icon" />,
       features: ["Injury prevention", "Better movement", "Recovery"]
     }
+    ,{
+      id: 7,
+      name: " my self Anshuman tiwari specialist increacing weight gain",
+      description: "Specialized program for increasing healthy weight gain through proper nutrition and strength training. and also for those who want to gain weight in a healthy way.",
+      duration: "20-25 min",
+      difficulty: "In easy way and in helthy way and also for beginners",
+      participants: "200000+",
+      image:"c:\\Users\\jayesh anshu\\Pictures\\bhaiya  copy.jpeg",
+      icon: <Target className="workout-icon" />,
+      features: ["Healthy weight gain", "Nutrition guidance", "Strength training"]
+    }
   ]
 
   return (

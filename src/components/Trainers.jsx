@@ -1,6 +1,5 @@
 import React from 'react'
 import { Star, Award, Users, MessageCircle } from 'lucide-react'
-
 const Trainers = () => {
   const trainers = [
     {
@@ -74,6 +73,18 @@ const Trainers = () => {
       bio: "Functional movement specialist helping clients move better in daily life.",
       certifications: ["FMS", "TRX", "Kettlebell"],
       specialties: ["Movement Quality", "Injury Prevention", "Daily Function"]
+    },
+    {
+      id: 7,
+      name: "Ram dev Baba ",
+      specialty: "YOGA and Meditation",
+      experience: "29 years",
+      rating: 4.9,
+      clients: 1000,
+      image: "https://th.bing.com/th/id/OIP.i7ySWy40wmhX4Kh9kCmc0QHaEK?w=326&h=183&c=7&r=0&o=7&pid=1.7&rm=3",
+      bio: "Functional movement specialist helping clients move better in daily life.",
+      certifications: ["", "Teera", "becholor in yoga"],
+      specialties: ["vyayam", "FOUNDER OF GURUKUL SCHOOL", "ALL INDIA YOGA CHAMPION"]
     }
   ]
 

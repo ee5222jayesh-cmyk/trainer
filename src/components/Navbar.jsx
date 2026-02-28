@@ -29,10 +29,12 @@ const Navbar = ({ isAuthenticated, user, onLogout }) => {
           
           <ul className={`nav-links ${isMobileMenuOpen ? 'mobile-open' : ''}`}>
             <li><a href="#home">Home</a></li>
-            <li><a href="#workouts">Workouts</a></li>
-            <li><a href="#trainers">Trainers</a></li>
-            <li><a href="#testimonials">Testimonials</a></li>
-            <li><a href="#contact">Contact</a></li>
+          <li><Link to="/workouts" className=""> Workouts</Link></li>
+            <li><Link to="/trainers" className="">
+                  Trainers
+                </Link> </li>
+            <li><Link to="/testimonials" className=""> Testimonials</Link></li>
+            <li><Link to="/contact" className=''>Contact</Link></li>
           </ul>
 
           <div className="nav-buttons">
@@ -54,6 +56,7 @@ const Navbar = ({ isAuthenticated, user, onLogout }) => {
                 <Link to="/auth" className="btn btn-primary">
                   Sign Up
                 </Link>
+                
               </>
             )}
             
